@@ -14,3 +14,4 @@ spring:
   profiles: mybatis
   application:
     name: luohao-config-mybatis
+    #测试

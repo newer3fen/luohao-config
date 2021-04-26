@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - redis
+
+---
+spring:
+  profiles: redis
+  application:
+    name: luohao-config-redis
+    
+---
+spring:
+  profiles: mybatis
+  application:
+    name: luohao-config-mybatis

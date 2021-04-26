@@ -15,3 +15,6 @@ spring:
   application:
     name: luohao-config-mybatis
     #测试
+   datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+    
